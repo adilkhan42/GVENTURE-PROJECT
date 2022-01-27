@@ -1,2 +1,2 @@
 # GVENTURE-PROJECT
-Using HTML,CSS and BOOTSTRAP
+https://adilkhan42.github.io/GVENTURE-PROJECT/index.html
