@@ -1,0 +1,105 @@
+
+
+
+.logo{
+
+    font-size: 5rem;
+    text-shadow: .1rem .2rem .2rem black;
+    color: #3498db;
+    font-weight: bold;
+    font-family: 'The Nautigal', cursive;
+
+}
+.halflogo{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:pink;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+/* Image Css */
+
+.bgimg{
+background-image: url("./Image/kitchen.jpg");
+background-size: 100% 100%;
+background-attachment: fixed;
+width: 100%;
+height: 700px;
+}
+
+.rotate7 {
+    transform: rotate(.5deg);
+    border: 2px solid #000;
+}
+.rotate10 {
+    transform: rotate(14deg);
+    border-radius: 10px;
+}
+
+
+/* Image shake property from here */
+
+.rotate7:hover {
+    animation: shake 0.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+
+  /* Card css apply from here */
+
+
+  .cards{
+      border-radius: 10px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    transition-duration: 1000ms;
+    
+}
+.cards:hover{
+    cursor: pointer;
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform:rotate(8deg);
+}
+    
+/* Stars css apply from here */
+
+.stars label:before{
+    cursor: pointer;
+    content:"\2605";
+    font-size: 25px;
+    color: #dddd00;
+    opacity: 1;
+} 
+
+/* button css apply from here */
+
+.button1{
+    cursor: pointer;
+    background-color: #dddd00;
+    transition: all 0.4s;
+
+}
+.button1:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.button1:hover{
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
